@@ -1,7 +1,11 @@
 def insertion(contacts):
-    i=input("Name: ")
-    j=input("Number: ")
-    contacts[i]=j
+        i=input("Name: ")
+        j=input("Number: ")
+        if i in contacts:
+            contacts[i]=j
+            print("Name is Already Exist")
+        else:
+            contacts[i]=j
 
 def updation(contacts,i,j):
     if i in contacts:
