@@ -47,6 +47,7 @@ def search(contacts):
             
 contact={}
 c=0
+print("Choice 1: Insertion of Conatct Book\nChoice 2: Upadation in Conatct Book\nChoice 3: Removal of Conatct Book\nChoice 4: Display of Conatct Book\nChoice 5: Counts of Conatct Book\nChoice 6: Search in Conatct Book\n")
 while(c<7):
     c=int(input("Enter the choice: "))
     if(c==1):
